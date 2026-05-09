@@ -24,7 +24,7 @@ with st.sidebar:
     uploaded_file = st.file_uploader("Drop a PDF here", type="pdf")
     process_btn = st.button("Process Document")
     st.markdown("---")
-    st.markdown("**Architecture Notes:**\n* Embeddings: HuggingFace (Local CPU)\n* LLM: Gemini 1.5 Flash\n* Vector Store: Ephemeral FAISS\n* Framework: LangChain LCEL")
+    st.markdown("**Architecture Notes:**\n* Embeddings: HuggingFace (Local CPU)\n* LLM: Gemini 2.5 Flash\n* Vector Store: Ephemeral FAISS\n* Framework: LangChain LCEL")
 
 # --- MAIN LOGIC: PROCESSING ---
 if uploaded_file and process_btn:
