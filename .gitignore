@@ -1,0 +1,4 @@
+.streamlit/
+__pycache__/
+faiss_index/
+temp.pdf
